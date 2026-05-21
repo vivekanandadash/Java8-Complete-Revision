@@ -134,3 +134,17 @@ git clone https://github.com/your-username/java8-features.git
 2. Open the project in your IDE
 3. Navigate topic-wise folders
 4. Run and explore Java examples
+
+📈 Future Enhancements
+Update the project structure according to practice topics
+Add real-world mini projects
+Add coding challenges per topic
+Add interview Q&A section
+Add advanced Java concepts
+👨‍💻 Author
+
+Created as part of Java 8 learning and interview preparation journey.
+
+⭐ Support
+
+If you find this helpful, consider giving a ⭐ to the repository.
