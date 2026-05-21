@@ -144,7 +144,7 @@ git clone https://github.com/your-username/java8-features.git
 
 ## 👨‍💻 Author
 **Vivekananda Dash**
-Created as part of Java 8 learning and interview preparation journey.
+* Created as part of Java 8 learning and interview preparation journey.
 
 ## ⭐ Support
 
