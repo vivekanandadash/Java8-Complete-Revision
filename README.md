@@ -130,3 +130,7 @@ The goal of this project is to provide a clear and structured Java 8 learning pa
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/java8-features.git
+```
+2. Open the project in your IDE
+3. Navigate topic-wise folders
+4. Run and explore Java examples
