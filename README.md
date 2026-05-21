@@ -17,7 +17,7 @@ It is especially useful for:
 
 ## 📂 Project Structure
 
-
+```bash
 Java8-Complete-Revision
 │
 ├── src
@@ -74,7 +74,7 @@ Java8-Complete-Revision
 ├── README.md
 └── .gitignore
 
-
+```
 ---
 
 ## 📚 Topics Covered
