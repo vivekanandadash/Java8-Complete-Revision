@@ -136,11 +136,11 @@ git clone https://github.com/your-username/java8-features.git
 4. Run and explore Java examples
 
 ## 📈 Future Enhancements
-Update the project structure according to practice topics
-Add real-world mini projects
-Add coding challenges per topic
-Add interview Q&A section
-Add advanced Java concepts
+* Update the project structure according to practice topics
+* Add real-world mini projects
+* Add coding challenges per topic
+* Add interview Q&A section
+* Add advanced Java concepts
 
 ## 👨‍💻 Author
 
