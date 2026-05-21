@@ -18,15 +18,61 @@ It is especially useful for:
 ## 📂 Project Structure
 
 
-java8-features/
-├── lambda-expressions/
-├── functional-interface/
-├── streams/
-├── optional/
-├── method-reference/
-├── default-static-methods/
-├── completablefuture/
-├── date-time-api/
+Java8-Complete-Revision
+│
+├── src
+│   ├── functionalinterface
+│   │   ├── PredicateDemo.java
+│   │   ├── FunctionDemo.java
+│   │   ├── ConsumerDemo.java
+│   │   ├── SupplierDemo.java
+│   │
+│   ├── lambda
+│   │   ├── LambdaBasics.java
+│   │   ├── LambdaWithParameters.java
+│   │   ├── LambdaSortingExample.java
+│   │
+│   ├── streams
+│   │   ├── StreamCreation.java
+│   │   ├── FilterExample.java
+│   │   ├── MapExample.java
+│   │   ├── ReduceExample.java
+│   │   ├── CollectExample.java
+│   │   ├── SortingStreams.java
+│   │
+│   ├── methodreference
+│   │   ├── StaticMethodReference.java
+│   │   ├── InstanceMethodReference.java
+│   │
+│   ├── optional
+│   │   ├── OptionalBasics.java
+│   │   ├── OptionalMethods.java
+│   │
+│   ├── datetimeapi
+│   │   ├── LocalDateDemo.java
+│   │   ├── LocalTimeDemo.java
+│   │   ├── DateTimeFormatterDemo.java
+│   │
+│   ├── defaultstaticmethod
+│   │   ├── DefaultMethodDemo.java
+│   │   ├── StaticMethodInterfaceDemo.java
+│   │
+│   ├── collections
+│   │   ├── ComparatorLambda.java
+│   │   ├── TreeMapLambda.java
+│   │
+│   ├── parallelstream
+│   │   ├── ParallelStreamDemo.java
+│   │
+│   ├── interviewquestions
+│   │   ├── EmployeeStreamQuestions.java
+│   │   ├── StringStreamProblems.java
+│   │
+│   └── practice
+│       ├── MiniExercises.java
+│
+├── README.md
+└── .gitignore
 
 
 ---
