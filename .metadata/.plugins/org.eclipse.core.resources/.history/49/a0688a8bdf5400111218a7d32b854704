@@ -1,0 +1,23 @@
+package PredefinedFunctionalInterface;
+
+
+
+public class PredicateFInterface {
+	public boolean test(int i) {
+		if(i>10) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+public static void main(String[] args) {
+	PredicateFInterface pfi = new PredicateFInterface();
+	boolean testing = pfi.test(25);
+	if(testing== true) {
+		System.out.println("Given is greter than 10");
+	}else {
+		System.out.println("Given digit is smaller than 10");
+	}
+}
+}

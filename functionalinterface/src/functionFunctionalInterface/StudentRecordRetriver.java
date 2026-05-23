@@ -1,0 +1,11 @@
+package functionFunctionalInterface;
+
+//Q) Retrieve student record based on  student id  and return the record
+
+public class StudentRecordRetriver {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

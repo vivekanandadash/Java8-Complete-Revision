@@ -1,0 +1,12 @@
+package consumerFunctionalInterface;
+
+import java.util.function.Consumer;
+
+public class ConsumerDemo {
+	public static void main(String[] args) {
+		Consumer<String> person = (name)-> System.out.println("Hi " +name + "Good Evening");
+		
+		person.accept("Vivek");
+	}
+
+}

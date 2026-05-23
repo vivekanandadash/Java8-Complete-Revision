@@ -1,0 +1,21 @@
+package FunctionalInterface;
+class Animal{
+ void roar() {
+	 System.out.println("Animal is roaring");
+ }
+ }
+
+class Tiger extends Animal{
+	@Override
+	void roar() {
+		// TODO Auto-generated method stub
+		System.out.println("Tiger is Running");
+	}
+}
+public class LambdaFunction {
+	public static void main(String[] args) {
+		Tiger t = new Tiger();
+		t.roar();
+	}
+
+}

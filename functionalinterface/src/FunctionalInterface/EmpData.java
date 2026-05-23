@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package functionalInterface;
 
 public class EmpData {
 	public String name ;

@@ -1,0 +1,29 @@
+package PredefinedFunctionalInterface;
+
+
+
+// Q) Take a List of persons and print the person whose age is >=16 using lambda expression
+
+class Person{
+   public String name;
+   public int age;
+   public double salary;
+   
+   Person(String name , int age , double salary){
+	   this.name = name;
+	   this.age = age;
+	   this.salary = salary;
+   }
+   
+}
+
+public class PredicatePersonsDemo {
+	
+	Person person0 = new Person("Alice",34 , 90000);
+	Person person1 = new Person("Bob",24 , 80000);
+	Person person2 = new Person("Charlie",37 , 70000);
+	Person person3 = new Person("David",31 , 85000);
+	Person person4 = new Person("Elice",29 , 65000);
+	
+
+}

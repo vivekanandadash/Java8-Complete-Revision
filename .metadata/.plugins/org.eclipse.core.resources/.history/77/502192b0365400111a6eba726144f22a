@@ -1,0 +1,10 @@
+package FunctionalInterface;
+class tiger{
+ void tigerroar() {
+	 
+ }
+ }
+public class LambdaFunction {
+	
+
+}

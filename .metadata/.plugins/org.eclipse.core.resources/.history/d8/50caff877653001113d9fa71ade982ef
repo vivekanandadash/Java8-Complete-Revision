@@ -1,0 +1,36 @@
+package learningInterface;
+
+
+interface Mobile{
+	void call();
+	static void message() {
+		System.out.println("Message is comming from producer");
+	}
+	default void camera() {
+		System.out.println("Camera is on");
+	}
+}
+class Samsung implements Mobile{
+
+	public void call() {
+		// TODO Auto-generated method stub
+		System.out.println("Someone Is calling");
+		
+	}
+	public void camera() {
+		System.out.println("Camera is now off");
+	}
+	public void message() {
+		System.out.println("tiger is running");
+	}
+	
+}
+public class Electronics {
+	public static void main(String[] args) {
+		Samsung s = new Samsung();
+		s.call();
+		s.camera();
+		Mobile.message();
+	}
+
+}

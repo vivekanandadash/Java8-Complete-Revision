@@ -1,0 +1,31 @@
+package learningInterface;
+
+interface Veichel{
+	
+	void start();
+	void stop();
+}
+ class Bike implements Veichel {
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		System.out.println("Bike Is Starting");
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+	   System.out.println();
+		
+	}
+
+}
+public class Main{
+	 public static void main(String[] args) {
+		Bike b = new Bike();
+		b.start();
+		b.stop();
+	 }
+}
+

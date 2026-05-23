@@ -1,0 +1,23 @@
+package consumerFunctionalInterface;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Consumer;
+
+public class ConsumerDemo {
+	public static void main(String[] args) {
+		Consumer<String> person = (name)-> System.out.println("Hi " +name + " Good Evening");
+		
+		person.accept("Vivek");
+		
+//		What Are the ways to iterate this arrays of number
+//		1.for loop
+//		2.for each
+//		3.iterator
+//		4.list iterator
+		
+		List<Integer> numbers = Arrays.asList(10,20,30,40);
+		numbers.forEach(i->System.out.println(i));
+	}
+
+}

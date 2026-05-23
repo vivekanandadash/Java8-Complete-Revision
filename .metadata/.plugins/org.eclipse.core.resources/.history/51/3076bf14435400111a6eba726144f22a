@@ -1,0 +1,19 @@
+package FunctionalInterface;
+
+interface Salary{
+    double getSalary(EmpData emp);
+}
+
+public class EmpSalary {
+	public static void main(String[] args) {
+		EmpData ed = new EmpData();
+		double salary = ed.getSalary();
+		System.out.println(salary);
+		
+		Salary sal = (emp)-> emp.getSalary();
+		double newSalary = sal.getSalary(ed);
+	    System.out.println("New message :"+ newSalary);
+		
+	}
+
+}

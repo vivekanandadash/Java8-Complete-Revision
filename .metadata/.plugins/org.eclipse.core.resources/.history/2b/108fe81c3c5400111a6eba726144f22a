@@ -1,0 +1,12 @@
+package FunctionalInterface;
+
+interface Length{
+	void car("Volkswagen");
+}
+public class CarLength {
+public static void main(String[] args) {
+  Length l = 	(String name)->{
+		name.length();
+	};
+}
+}

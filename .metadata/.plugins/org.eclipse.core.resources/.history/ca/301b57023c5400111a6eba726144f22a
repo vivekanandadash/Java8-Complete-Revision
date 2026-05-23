@@ -1,0 +1,8 @@
+package FunctionalInterface;
+
+interface Length{
+	
+}
+public class CarLength {
+
+}

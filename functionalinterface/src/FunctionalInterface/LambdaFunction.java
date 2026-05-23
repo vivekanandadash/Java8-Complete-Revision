@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package functionalInterface;
 
 
 interface Roar{

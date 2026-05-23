@@ -1,0 +1,39 @@
+package PredefinedFunctionalInterface;
+
+import java.util.function.Predicate;
+
+public class PredicateFInterface {
+	
+	//method without lambda
+//	public boolean test(int i) {
+//		if(i>10) {
+//			return true;
+//		}
+//		else {
+//			return false;
+//		}
+//	}
+public static void main(String[] args) {
+	
+//	using the above without lamda logic check the result of true or false
+//	PredicateFInterface pfi = new PredicateFInterface();
+//	boolean testing = pfi.test(5);
+//	if(testing== true) {
+//		System.out.println("Given is greter than 10");
+//	}else {
+//		System.out.println("Given digit is smaller than 10");
+//	}
+	
+//	using predicate functional interface
+	
+	Predicate<Integer> p = i -> i>10;
+	boolean testing = p.test(4);
+	System.out.println(testing);
+	if (testing) {
+		System.out.println("greter than 10");
+	}
+	else {
+	System.out.println("less than 10");
+	}
+}
+}

@@ -1,0 +1,9 @@
+package FunctionalInterface;
+
+public class EmpSalary {
+	public String name = "Vivekananda Dash";
+	public int age  = 24;
+	public long salary = 70000l;
+	
+
+}

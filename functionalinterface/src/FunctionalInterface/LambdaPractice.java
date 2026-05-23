@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package functionalInterface;
 interface Calculator{
 	void add(int a, int b);
 }

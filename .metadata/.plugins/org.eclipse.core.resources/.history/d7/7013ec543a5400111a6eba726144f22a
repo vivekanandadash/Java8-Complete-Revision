@@ -1,0 +1,13 @@
+package FunctionalInterface;
+interface Calculator{
+	void add(int a, int b);
+}
+public class LambdaPractice {
+	public static void main(String[] args) {
+	Calculator c = 	( a , b)->{
+			System.out.println(a+b);
+		};
+		c.add(54, 79);
+	}
+
+}

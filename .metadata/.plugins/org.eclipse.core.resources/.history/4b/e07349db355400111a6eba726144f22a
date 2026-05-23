@@ -1,0 +1,8 @@
+package FunctionalInterface;
+class tiger{
+ System.out.println("tiger is roaring");
+}
+public class LambdaFunction {
+	
+
+}
