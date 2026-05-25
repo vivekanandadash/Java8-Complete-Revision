@@ -116,7 +116,7 @@ Modern Java date-time handling using `java.time` package.
 
 ## 🎯 Purpose of This Repository
 
-The goal of this project is to provide a clear and structured Java 8 learning path with real examples that help in:
+The goal of this Project is to provide a clear and structured Java 8 learning path with real examples that help in:
 
 - Understanding Java 8 features deeply
 - Preparing for technical interviews
@@ -131,7 +131,7 @@ The goal of this project is to provide a clear and structured Java 8 learning pa
 ```bash
 git clone https://github.com/your-username/java8-features.git
 ```
-2. Open the project in your IDE
+2. Open the Project in your IDE
 3. Navigate topic-wise folders
 4. Run and explore Java examples
 
@@ -144,7 +144,7 @@ git clone https://github.com/your-username/java8-features.git
 
 ## 👨‍💻 Author
 **Vivekananda Dash**
-* Created as part of Java 8 learning and interview preparation journey.
+* Created as part of Java 8 learning and interview Preparation Journey.
 
 ## ⭐ Support
 
