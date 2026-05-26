@@ -1,0 +1,22 @@
+package methodRefference;
+
+@FunctionalInterface
+interface MyInterface{
+	public void m1();
+}
+
+public class MethodRef {
+	public static void m2() {
+		System.out.println("I am calling m2 method");
+	}
+  public static void main(String[] args) {
+	  
+//	  It is a Consumer based Lambda
+//	  Consumer<String> message  = (msg)-> System.out.println("Wish you Good Morning "+msg);
+//	message.accept("Vivekanada");
+	  
+	MyInterface mi=  MethodRef::m2;
+	mi.m1();
+	
+}
+}
