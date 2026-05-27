@@ -7,6 +7,11 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class NumberSorting {
+	
+	
+	public static void checkEmpty(String word) {
+	    System.out.println(word.isEmpty() ? "Empty" : "Not Empty");
+	}
 	public static void main(String[] args) {
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();
 		arrayList.add(24);
@@ -51,6 +56,7 @@ public class NumberSorting {
 	    List<String> uppercase = new ArrayList<String>();
 	    names1.forEach(n->uppercase.add(n.toUpperCase()));
 	    System.out.println(uppercase);
+	  
 	    
 //	    Using for each loop
 	    for (String string : names1) {
@@ -58,7 +64,43 @@ public class NumberSorting {
 		}
 	    
 //	    Using for method reference
-//	    names1.forEach(String::toUpperCase);   
+//	    names1.forEach(String::toUpperCase); 
+	    
+	    
+//	    Sort list using method reference and lambda
+	    
+	    List<String> names2 = Arrays.asList("Zebra", "Apple", "Cat");
+	    Collections.sort(names2,(a,b)->a.compareTo(b));
+	    Collections.sort(names,String::compareTo);
+	    
+	    System.out.println("Using Lambda :"+names2);
+	    System.out.println("Using MReference"+names);
+	    
+	    
+	    
+//	    Find length of each string
+	    
+	    List<String> words = Arrays.asList("Java", "SpringBoot", "AWS");
+	    Consumer<String> length = n->System.out.println(n.length());;
+	    words.forEach(length);
+	    
+//	    Using for Each
+	    
+	   for (String string : words) {
+		System.out.println(string.length());
+	}
+	   
+	   
+//	   Check empty strings
+	   
+	   List<String> words1 = Arrays.asList("", "Java", "", "Spring");
+	   Consumer<String> consumer2 = w->{
+		System.out.println(w.isEmpty()?"Empty" : "Not empty");
+	   };
+	   words1.forEach(consumer2);
+	   System.out.println("==========================================");
+	   words1.forEach(NumberSorting::checkEmpty);
+	    
 	}
 	
 
