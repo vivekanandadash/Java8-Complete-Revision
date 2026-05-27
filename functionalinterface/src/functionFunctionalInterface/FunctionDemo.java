@@ -9,8 +9,7 @@ public static void main(String[] args) {
 		return name.length();
 	};
 	System.out.println(personLength.apply("Vivekananda"));
-	
-  
-}
+	System.out.println(personLength.getClass());
+	}
 
 }
