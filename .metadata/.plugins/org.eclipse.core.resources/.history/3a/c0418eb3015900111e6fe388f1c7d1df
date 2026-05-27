@@ -1,0 +1,26 @@
+package dateAndTimePckg;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateDemo {
+	public static void main(String[] args) throws Exception {
+		Date d = new Date();
+		System.out.println(d);
+		
+//		Converting date String to
+		
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		String format = dateFormat.format(d);
+	    
+		System.out.println(format);
+		
+		
+//		Converting String to date
+		SimpleDateFormat dateFormat2 = new SimpleDateFormat("yyyy-MM-dd");
+		Date date = dateFormat2.parse("2026-05-26");
+		System.out.println(date);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package constructorRefference;
+
+import java.util.function.Supplier;
+
+public class Test {
+public static void main(String[] args) {
+//    Doctor doctor = new Doctor();
+    
+    
+    Supplier<Doctor> doc  =  Doctor::new;
+   System.out.println( doc);
+}
+	
+	
+}
+
+ class Doctor{
+	public Doctor() {
+		System.out.println("Hello From Doctor Constructor");
+	}
+}

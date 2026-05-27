@@ -1,0 +1,25 @@
+package practQuestion;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class NumberSorting {
+	public static void main(String[] args) {
+		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		arrayList.add(24);
+		arrayList.add(41);
+		arrayList.add(247);
+		arrayList.add(78);
+		arrayList.add(75);
+		arrayList.add(89);
+		arrayList.add(98);
+		
+		Collections.sort(arrayList,Collections.reverseOrder());
+		System.out.println(arrayList);
+		
+		Collections.sort(arrayList, (i,j)->(i>j)?-1:1);
+		System.out.println("sorting using bifunction Functional interface"+arrayList);
+	}
+	
+
+}

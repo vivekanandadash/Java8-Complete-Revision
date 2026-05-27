@@ -1,0 +1,19 @@
+package optionalClass;
+
+public class User {
+	
+	public String getUserName(Integer id) {
+		if(id == 10) {
+			return "Vivek";
+		}else if (id == 20) {
+			return "gudulu";
+		}else if (id == 30) {
+			return "madana";
+		}else {
+			return null;
+		}
+		
+		
+	}
+
+}

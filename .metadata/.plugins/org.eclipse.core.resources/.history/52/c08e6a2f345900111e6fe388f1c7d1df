@@ -1,0 +1,47 @@
+package dateAndTimePckg;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Period;
+
+public class NewDateDemo {
+ public static void main(String[] args) {
+	 
+//	 Local date
+
+		LocalDate date = LocalDate.now();
+		System.out.println(date);
+		LocalDate plusDays = date.plusDays(5);
+		LocalDate plusMonths = date.plusMonths(1);
+		LocalDate plusYears = date.plusYears(2);
+		System.out.println(plusDays);
+		System.out.println(plusMonths);
+		System.out.println(plusYears);
+		boolean leapYear = LocalDate.parse("2028-09-24").isLeapYear();
+		System.out.println(leapYear);
+		boolean before = LocalDate.parse("2024-08-12").isBefore(LocalDate.parse("2020-07-12"));
+		System.out.println(before);
+		
+		
+//		Local time
+		
+		LocalTime time = LocalTime.now();
+		System.out.println(time);
+		
+		
+//		Local DateTime
+		
+		LocalDateTime dateTime = LocalDateTime.now();
+		System.out.println(dateTime);
+		
+		
+//		Period Between
+		
+		Period between = Period.between(LocalDate.parse("2001-09-21"),LocalDate.now());
+		System.out.println(between);
+		
+		
+		
+}
+}
