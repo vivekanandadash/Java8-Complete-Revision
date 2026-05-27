@@ -1,7 +1,0 @@
-package PredefinedFunctionalInterface;
-
-//Q) Print employee names who are working in Hyderabad location in DB team.
-public class PredicateJoining {
-	
-
-}

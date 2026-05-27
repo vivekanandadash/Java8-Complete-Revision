@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;stringJoinerAndFunctionalIntreface&apos;" deleteContents="true" description="Delete resource &apos;stringJoinerAndFunctionalIntreface&apos;" element1="/stringJoinerAndFunctionalIntreface" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1779792081507"/>
-</session>

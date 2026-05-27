@@ -1,8 +1,0 @@
-package PredefinedFunctionalInterface;
-
-// Q) Take a List of persons and print the person whose age is >=16 using lambda expression
-
-public class PredicatePersonsDemo {
-	
-
-}
