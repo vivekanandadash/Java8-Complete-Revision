@@ -100,7 +100,27 @@ public class NumberSorting {
 	   words1.forEach(consumer2);
 	   System.out.println("==========================================");
 	   words1.forEach(NumberSorting::checkEmpty);
-	    
+	   
+//	   Convert String to Integer
+	   List<String> numbers = Arrays.asList("1", "2", "3");
+       for (String string : numbers) {
+    	 System.out.println(Integer.parseInt(string));
+    	 
+//    	 WeCan Also Use this
+    	 
+//		Integer int1 = Integer.parseInt(string);
+//		System.out.println(int1);
+       }
+       
+         System.out.println("Using Lambda Function");
+         System.out.println("==============================");
+    	 
+    	 Consumer<String> conv  = n->System.out.println(Integer.parseInt(n));
+    	 numbers.forEach(conv);
+  
+    	 
+	   
+    	 
 	}
 	
 
