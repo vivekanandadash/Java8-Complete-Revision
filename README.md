@@ -8,7 +8,7 @@ A structured Java 8 revision repository containing hands-on examples for all maj
 This repository provides a topic-wise breakdown of Java 8 features with simple examples and practice programs. Each module focuses on one concept to make learning easy and organized.
 
 It is especially useful for:
-- 🎯 Interview preparation
+- 🎯 Interview Preparation
 - 📚 Quick revision of Java 8 concepts
 - 💻 Hands-on coding practice
 - 🧠 Strengthening core Java fundamentals
